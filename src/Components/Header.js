@@ -5,9 +5,9 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Header = () => {
   return (
     <header className="relative h-screen flex flex-col justify-center items-center bg-gradient-to-b from-gray-900 to-black text-white overflow-hidden">
-      {/* Floating elements */}
+     
       <div className="absolute inset-0 overflow-hidden">
-        {/* Pink circle with LinkedIn icon */}
+       
         <a
           href="https://www.linkedin.com/in/sowmyaperimelli "
           target="_blank"
@@ -17,7 +17,7 @@ const Header = () => {
           <FaLinkedin className="text-2xl" />
         </a>
 
-        {/* Blue circle with GitHub icon */}
+       
         <a
           href="https://github.com/perimellisowmya"
           target="_blank"
@@ -28,12 +28,12 @@ const Header = () => {
         </a>
       </div>
 
-      {/* Name and Animation */}
+     
       <h1 className="text-6xl font-bold mb-4">
         Hello World, I'm <span className="text-blue-400">[Sowmya]</span>
       </h1>
 
-      {/* Typing effect for roles */}
+     
       <span className="text-2xl text-gray-300">
         <Typewriter
           words={[
@@ -50,7 +50,7 @@ const Header = () => {
         />
       </span>
 
-      {/* New text about experience */}
+     
       <p className="text-center mt-6 text-lg max-w-3xl">
         Skilled frontend developer with 1.5 years of experience in creating
         applications using React JS, Material UI, and Axios. B.Tech CSE graduate
@@ -59,7 +59,7 @@ const Header = () => {
         collaborations.
       </p>
 
-      {/* Mouse interactive hover effect */}
+      
       <div className="absolute inset-0 pointer-events-none">
         <p className="text-gray-500 absolute bottom-10 w-full text-center text-lg">
           Scroll to explore

@@ -26,10 +26,10 @@ const technicalSkills = [
   { name: "Git", icon: <FaGit className="text-orange-500" /> },
 ];
 
-// Icon hover animation variants
+
 const iconVariant = {
-  initial: { scale: 1, rotate: 0 }, // Initial state
-  hover: { scale: 1.3, rotate: 360, transition: { duration: 0.6 } }, // Animation on hover
+  initial: { scale: 1, rotate: 0 },
+  hover: { scale: 1.3, rotate: 360, transition: { duration: 0.6 } },
 };
 
 const TechnicalSkills = () => {
@@ -44,7 +44,7 @@ const TechnicalSkills = () => {
         Technical Skills
       </motion.h2>
 
-      {/* Icon grid */}
+      
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-10 px-6 max-w-4xl mx-auto">
         {technicalSkills.map((skill, index) => (
           <motion.div

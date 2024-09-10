@@ -5,14 +5,14 @@ const Footer = () => {
   return (
     <footer className="relative text-black py-16 px-4">
       <div className="container mx-auto flex items-center justify-center">
-        {/* Vertical Line */}
+       
         <div className="relative flex-grow">
           <div className="absolute inset-0 flex items-center justify-center">
             
           </div>
 
           <div className="relative flex flex-col items-center text-center z-10">
-            {/* Text on the Left of the Vertical Line */}
+           
             <motion.div
               className="mb-12 px-6"
               initial={{ opacity: 0, scale: 0.9 }}
